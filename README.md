@@ -1,7 +1,7 @@
 # Steinhaus Filtration and Stable Paths in the Mapper
 
 This repository contains Jupyter notebooks related to our paper *Steinhaus Filtration and Stable Paths in the Mapper*.
-There are three notebooks of notes.
+There are three notebooks touching on three aspects.
 
 The packages required to run all three notebooks can be installed via
 ```
@@ -24,7 +24,13 @@ We then compare the persistence diagrams of their 1-skeletons.
 
 ## MapperonFashion.ipynb
 
-TODO: Describe this notebook
+In this application we make use of the Steinhaus filtration to provide explanations for supervised machine learning.
+We build a Mapper from the predicated probability space of a logistic regression model.
+We then analyze stable paths on the resulting Steinhaus filtration.
+
+The notebook demonstrates this process on the [Fashion-MNIST](https://www.kaggle.com/datasets/zalando-research/fashionmnist) data set consisting of 70,000 images of clothing items from 10 classes.
+
+To make use of this notebook, one must extract the [Fashion-MNIST](https://www.kaggle.com/datasets/zalando-research/fashionmnist) data set to ``data/``.
 
 ##### Required Packages
 - hdbscan
@@ -39,7 +45,12 @@ TODO: Describe this notebook
 
 ## PathsonRecSys.ipynb
 
-TODO: Describe this notebook
+In this application we apply the Steinhaus filtration to answer the following question: what sequence of movies should one watch to gently transition from the movie *Mulan* to *Moulin Rouge*.
+We make use of the [MovieLens-20m](https://www.kaggle.com/datasets/grouplens/movielens-20m-dataset) data set and represent each movie as a cover element consisting of users who rated said movie.
+We then apply the Steinhaus filtration to build a filtration on the Mapper graph.
+Using our theory on stable paths we can find a stable order of movies to watch.
+
+To make use of this notebook, one must extract the [MovieLens-20m](https://www.kaggle.com/datasets/grouplens/movielens-20m-dataset) data set to ``data/ml-20m/``.
 
 ##### Required Packages
 - pandas
