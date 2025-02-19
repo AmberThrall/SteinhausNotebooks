@@ -25,7 +25,7 @@ We then analyze stable paths on the resulting Steinhaus filtration.
 
 The notebook demonstrates this process on the [Fashion-MNIST](https://www.kaggle.com/datasets/zalando-research/fashionmnist) data set consisting of 70,000 images of clothing items from 10 classes.
 
-To make use of this notebook, one must extract the [Fashion-MNIST](https://www.kaggle.com/datasets/zalando-research/fashionmnist) data set to ``data/``.
+To make use of this notebook, one must extract the [Fashion-MNIST](https://www.kaggle.com/datasets/zalando-research/fashionmnist) data set to ``data/fashion/``.
 
 ##### Required Packages
 - hdbscan
