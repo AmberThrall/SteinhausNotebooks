@@ -3,11 +3,6 @@
 This repository contains Jupyter notebooks related to our paper *Steinhaus Filtration and Stable Paths in the Mapper*.
 There are three notebooks touching on three aspects.
 
-The packages required to run all three notebooks can be installed via
-```
-pip install -r requirements.txt
-```
-
 ## ComparisonofCechandCoverFiltrations.ipynb
 
 Computational exploration of an isomorphism of 1-skeletons between the two filtrations. 
@@ -17,10 +12,10 @@ We then compare the persistence diagrams of their 1-skeletons.
 ##### Required Packages
 - matplotlib
 - numpy
-- dionysis
+- dionysus
 - ripser
 - persim
-- cechmate
+- cechmate (see InstallingCechmate.md)
 
 ## MapperonFashion.ipynb
 
