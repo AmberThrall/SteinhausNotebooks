@@ -5,7 +5,7 @@ At the time of writing this, the typical install procedure
 pip install cechmate
 ```
 errors due to a missing dependency `phat`.
-To fix this, due the following:
+To fix this, do the following:
 
 1. Install wheel and setuptools
 ```
