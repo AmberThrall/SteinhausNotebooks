@@ -52,7 +52,7 @@ def draw_stable_paths(g, most_stable, source, terminal, pos=None):
         edges = list(zip(path, path[1:]))
 
         nx.draw_networkx_nodes(g, nodelist=nodes, pos=pos, node_size=10)
-        nx.draw_networkx_edges(g, edgelist=edges, pos=pos, linewidth=linewidth)
+        nx.draw_networkx_edges(g, edgelist=edges, pos=pos, width=linewidth)
 
     for hops, (path, cost) in most_stable.items():
         draw_path(g, path, pos=pos)

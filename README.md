@@ -35,7 +35,7 @@ To make use of this notebook, one must extract the [Fashion-MNIST](https://githu
 - numpy
 - seaborn
 - scikit-learn
-- umap
+- umap-learn
 - kmapper
 
 ## PathsonRecSys.ipynb
@@ -54,5 +54,5 @@ To make use of this notebook, one must extract the [MovieLens-20m](https://www.k
 - scipy
 - matplotlib
 - seaborn
-- umap
+- umap-learn
 
